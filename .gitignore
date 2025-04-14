@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.h5
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/

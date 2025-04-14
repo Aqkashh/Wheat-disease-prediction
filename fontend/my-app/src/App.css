@@ -1,0 +1,63 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #292020;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2e7d32;
+  }
+  
+  .webcam, .preview {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #388e3c;
+  }
+  
+  .btn.secondary {
+    background: #f44336;
+  }
+  
+  .btn.secondary:hover {
+    background: #d32f2f;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .result {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    color: #3ebab3;
+  }
+  
